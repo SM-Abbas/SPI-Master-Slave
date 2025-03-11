@@ -14,11 +14,6 @@ Features:
 
 No external IP used. Should synthesize for all FPGAs.
 
-Tested on Lattice ICE40UP5k.
-
-Makefile builds bitstream for WebFPGA with yosys, nextpnr, icepack and compress-bitstream (from WebFPGA toolchain).
-Extremely easy to modify for other FPGAs.
-
 ## Usage:
 
 Include these files in your own project:
@@ -75,7 +70,4 @@ SPI slave:
 	.do_reset(Flag: Reset the module. Has to be set to 1 initially.),
 	.is_ready(Status: Module intialized and ready?) );
 
-THE SOFTWARE/HARDWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-Happy synthesizing, 
-Dr. med. Jan Schiefer.
